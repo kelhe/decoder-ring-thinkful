@@ -32,7 +32,7 @@ const caesarModule = (function () {
       let result = shifted.join("");
       return result;
     }
-    //if it doesnt decode isnt true then same code will apply but the shift should be the other way for encode
+    //if encode parameter is true then same code will apply from the decode but the shift should be the other way for encode
     let text = input.toLowerCase().split(""); 
     let shifted = text.map((letter) => {
       let currentCode = letter.charCodeAt(0);
