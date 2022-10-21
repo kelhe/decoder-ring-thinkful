@@ -1,1 +1,2 @@
-# decoder-ring-thinkful
+# Decoder Ring Capstone
+## Module 12
